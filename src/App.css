@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  width:240px;
+  height:50px;
+  margin:1% auto 1% auto;
+}
+
+.display{
+  background:#D8D8D8;
+  width:240px;
+  height:50px;
+  margin:0px auto 0 auto;
+  text-align: right;
+  font-size: 35px;
+  color: black;
+  position:relative;
+  padding-bottom:0px;
+}
+
+.display:span {
+  position:absolute;
+  bottom:0px;
+  right:10px;
+}
