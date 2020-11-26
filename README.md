@@ -35,6 +35,8 @@ Além disso, foram definidos três componentes:
 
 No arquivo *App.js* tem-se a utilização dos compoentes criados e montagem do layout da calculadora propriamente dita.
 
+![Screenshot](fig1.png)
+
 ### Detalhes adicionais
 
 Maiores informações sobre a atividade podem ser encontradas no relatório e no código comentado.
