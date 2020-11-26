@@ -4,6 +4,7 @@ import {combineReducers} from 'redux'
 
 var rootReducer = combineReducers(allReducers);
 
+// armazenamento do redux
 export default function configureStore() {
     return createStore(
         rootReducer

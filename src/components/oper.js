@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import { operationPressed } from '../actions';
 
+// componente para botoes nao numericos da calculadora
 class Operation extends Component {
     clickHandler(){
         this.props.operationChoosed(this.props.operation);
@@ -14,7 +15,7 @@ class Operation extends Component {
     }
 }
 
-
+// obter a qual operacao o botao se refere
 function mapDispathToProps(dispatch) {
     return {
         operationChoosed : function (operation) {

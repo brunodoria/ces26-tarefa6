@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { digitPressed } from '../actions';
 import {connect} from 'react-redux';
 
+// componente para os digitos numericos da calculadora com aplicacao de um estilo particular
 class Digit extends Component {
     render() {
         return (
@@ -10,7 +11,7 @@ class Digit extends Component {
     }
 }
 
-
+// registro do botao selecionado (valor numerico)
 function mapDispatchToProps(dispatch) {
     return {
         digitClicked : function (digit) {
